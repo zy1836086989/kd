@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="../../../../static/css/font-awesome.min.css" />
 	</head>
 	<body>
-		
+			<!-- 导航条 -->
 			<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -43,7 +43,7 @@
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="搜你所想">
 						</div>
-						<button type="submit" class="btn btn-default">百度一下</button>
+						<button type="submit" class="btn btn-default">搜索</button>
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
@@ -61,6 +61,9 @@
 				<!-- /.navbar-collapse -->
 			</div>
 		</nav>
+		
+		<!-- 轮播 -->
+		
 		<div id="myCarousel" class="carousel slide">
 			<div class="container">
 				<ol class="carousel-indicators">
@@ -114,7 +117,30 @@
 				</div>
 			</div>
 		</div>
-
+		
+		<!-- 左侧商品分类 -->
+		<div id="commodity">
+			<div class="list1"></div>
+			<div class="list2"></div>
+			<div class="list3"></div>
+			<div class="list4"></div>
+			<div class="list5"></div>
+			<div class="list6"></div>
+			<div class="list7"></div>
+			<div class="list8"></div>
+		</div>
+		
+		<!-- 右侧状态栏 -->
+		<div id="status">
+			<div class="shop-dynamic">
+				商城动态
+			</div>
+			<div class="shop-order">
+				订单
+			</div>
+		</div>
+		
+		<!-- 未定义-->
 		<div class="container">
 			<section id="one" class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3  col-xs-12 text-center">
@@ -155,20 +181,14 @@
 				</div>
 			</section>
 		</div>
-
+		
+		<!-- 商品展示  -->
 		<section id="one" class="row">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<h1>
 							<span class="t-color-1">Featured</span> Products
-								<small class="btn-group hidden-xs">
-									<a class=" btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categries <i class=" icon-th-list"></i></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">Option 1</a></li>
-										<li><a href="#">Option 2</a></li>
-									</ul>
-							</small>
 							<small class="navbar-right"><a href="#myCarousel2" data-slide="prev"><span class="bgc icon-angle-left"></span></a> <a href="#myCarousel2" data-slide="next"><span class="bgc icon-angle-right"></span></a></small>
 						</h1>	
 						
@@ -189,6 +209,18 @@
 											<div class="col-lg-3">
 												<img src="/static/index/images/f风景 (18).jpg" alt="">
 											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (18).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (17).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (16).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (13).jpg" alt="">
+											</div>
 										</div>
 										<div class="item row">
 											<div class="col-lg-3">
@@ -203,8 +235,45 @@
 											<div class="col-lg-3">
 												<img src="/static/index/images/f风景 (2).jpg" alt="">
 											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (19).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (20).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (6).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (2).jpg" alt="">
+											</div>
 				           				</div>
-				
+										<div class="item row">
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (19).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (20).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (6).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (2).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (19).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (20).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (6).jpg" alt="">
+											</div>
+											<div class="col-lg-3">
+												<img src="/static/index/images/f风景 (2).jpg" alt="">
+											</div>
+				           				</div>
 									</div>
 								</div>
 							</div>
@@ -215,13 +284,17 @@
 				</div>
 			</div>
 		</section>
-			
+		<section  style="border: 1px solid red; height: 300px; width: 1170px; "  class="container">
+			<div>
+			1
+			</div>
+		</section>	
 			
  	 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
 	<script src="/static/js/jquery-1.9.1.min.js"></script>
 	<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
-	<script type="text/javascript" src="/static/index/js/index.js" ></script>
+	<script src="/static/index/js/index.js" ></script>
 	</body>
 	
 </html>
